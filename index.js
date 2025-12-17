@@ -81,7 +81,7 @@ io.on('connection', (socket) => {
     });
 });
 
-const PORT = 8000;
+const PORT = 8888;
 server.listen(PORT, () => {
     console.log(`BattleX Backend running on port ${PORT}`);
 });
